@@ -1,0 +1,16 @@
+
+*.cache
+
+#vsidx files are related to Visual Studio's IntelliSense feature, which provides code completion and other helpful suggestions as you write code.
+*.vsidx  
+
+#Since .suo files contain user-specific settings, they are not intended to be shared or version-controlled. 
+*.suo
+
+# It's important not to include .user files in version control repositories (such as Git) to prevent conflicts and ensure that each user can maintain their own development environment settings.
+*.user
+
+*.ncb
+*.sqlite
+.vs/
+.suo
